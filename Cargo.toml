@@ -26,6 +26,7 @@ env_logger = "0.8.3"
 num-complex = "0.3.1"
 rayon = "1.5.0"
 zi-crossterm = { version = "0.2.0", path = "backends/crossterm" }
+zi-wgpu = { version = "0.1.0", path = "backends/wgpu" }
 
 [[bench]]
 name = "senders"
